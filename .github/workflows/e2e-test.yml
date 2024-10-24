@@ -29,12 +29,7 @@ jobs:
 
       - name: install or update Python build system
         run: python3 -m pip install -U wheel setuptools certifi pip
-    
-      - name: install test dependencies
-        run: pwd
-      - name: install test dependencies
-        run: ls
-      
+
       - name: install test dependencies
         run: make test-deps
 
