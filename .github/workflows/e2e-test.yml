@@ -33,6 +33,8 @@ jobs:
     
       - name: install test dependencies
         run: pwd
+      - name: install test dependencies
+        run: ls
       
       - name: install test dependencies
         run: make test-deps
